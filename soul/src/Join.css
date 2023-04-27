@@ -1,0 +1,164 @@
+.hero-banner {
+    align-items: center;
+    display: flex;
+    height: 47vh;
+    position: relative;
+    justify-content: center;
+    z-index: -1;
+}
+
+.hero-banner__title {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 0 20px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero-banner__stroked-title {
+    color: #25050500;
+    -webkit-text-stroke: 5px #191717;
+    word-spacing: -2px;
+    letter-spacing: 2px;
+    text-decoration: overline;
+}
+
+.hero-banner__image {
+    border-radius: 20px;
+    position: fixed;
+    transform: rotate(0deg);
+    width: 250px;
+}
+
+.content {
+    background-color: #eaeaea;
+    padding: x;
+    height: 44vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 -52px;
+}
+
+.content p {
+    font-size: 20px;
+    color: #191717;
+    font-weight: 700;
+}
+
+.Headss {
+    width: 100%;
+    height: 4rem;
+    background: #eaeaea;
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    opacity: 100%;
+}
+
+
+/* formsss */
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact-form-wrapper {
+    padding: 100px 0;
+}
+
+.contact-form {
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 400px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form .form-input,
+.form-text-area {
+    background-color: #f0f4f5;
+    height: 50px;
+    padding-left: 16px;
+}
+
+.contact-form .form-text-area {
+    background-color: #f0f4f5;
+    height: auto;
+    padding-left: 16px;
+}
+
+.contact-form .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.contact-form .form-control:-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+}
+
+.contact-form .form-control::-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+}
+
+.contact-form .form-control:focus {
+    border-color: #f33fb0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #f33fb0;
+}
+
+.contact-form .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact-form .description {
+    color: #aeb4b9;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-form .submit-button-wrapper {
+    text-align: center;
+}
+
+.contact-form .submit-button-wrapper input {
+    border: none;
+    border-radius: 4px;
+    background-color: #f23292;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.contact-form .submit-button-wrapper input:hover {
+    background-color: #d30069;
+}
